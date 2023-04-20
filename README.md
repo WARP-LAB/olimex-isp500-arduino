@@ -20,8 +20,9 @@ Follow [manual](https://www.olimex.com/Products/AVR/Programmers/AVR-ISP500-TINY/
 olimexisp500tiny.name=Olimex AVR-ISP500-TINY
 olimexisp500tiny.communication=serial
 olimexisp500tiny.protocol=stk500v2
-olimexisp500tiny.program.tool=avrdude
 olimexisp500tiny.program.protocol=stk500v2
+olimexisp500tiny.program.tool=avrdude
+olimexisp500tiny.program.tool.default=avrdude
 olimexisp500tiny.program.extra_params=-P{serial.port}
 ```
 
