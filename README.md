@@ -14,6 +14,12 @@ Follow [manual](https://www.olimex.com/Products/AVR/Programmers/AVR-ISP500-TINY/
 
 ### Programmer definition
 
+Located at
+* `~/Library/Arduino15/packages/arduino/hardware/avr/<platform-version>/programmers.txt`
+* `%LOCALAPPDATA%\Arduino15\packages\arduino\hardware\avr\<platform-version>\programmers.txt`
+
+As of writing `platform-version` is 1.8.6
+
 *programmers.txt*
 
 ```
@@ -34,7 +40,7 @@ olimexisp500tiny.program.extra_params=-P{serial.port}
 
 Use hex found in *breadboard-1-6-x.zip* linked from [this Arduino tut](https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard).
 
-Update board definition inside `breadboard/avr/boards.txt`
+Update board definition
 
 *boards.txt*
 
