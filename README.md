@@ -4,7 +4,7 @@ Notes for AVR-ISP500-TINY when used as ISP programmer via [Arduino IDE](https://
 
 For ATmega and ATtiny.
 
-Tested on macOS 10.12 and MSW10, Arduino IDE 1.8.4.
+Tested on macOS 12.6 and MSW10, Arduino IDE 2.1.0 (CLI 0.32.3)
 
 # Programmer
 
